@@ -1,0 +1,57 @@
+.button
+{
+   background-color: cadetblue;
+   color: white;
+   width: 100px;
+   border-radius: 10px;
+}
+.title_baitap
+{
+   color: red;
+   text-align: center;
+   font-weight: bold;
+}
+.readonly
+{
+   background-color: #FCC;
+}
+label
+{
+   float: left;
+   width: 100px;
+   padding: 5px;
+   text-align: center;
+}
+section
+{
+   clear: both;
+}
+.form_baitap
+{
+   text-align: center;
+   width: 500px;
+   border-collapse: collapse;
+   border-width: 10px;
+   background-color: #FFC;
+   padding: 10px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.row_baitap
+{
+   margin-bottom: 1px;
+   text-align: left;
+}
+input:required
+{
+   border-style: solid;
+   border-width: 1px;
+}
+input:valid
+{
+   background-color: rgb(58, 149, 58);
+}
+input:invalid
+{
+   background-color: rgb(243, 186, 186);
+}
